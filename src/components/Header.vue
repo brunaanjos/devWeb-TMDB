@@ -15,7 +15,7 @@ function goToSearch() {
     inputSearch.value = '';
     // window.location.reload();
 }
-
+ 
 function changeLinksResize() {
     const width = document.documentElement.clientWidth;
     console.log(width)

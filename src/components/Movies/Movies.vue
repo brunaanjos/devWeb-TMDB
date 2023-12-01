@@ -16,7 +16,7 @@ function goToDetails() {
 <template>
     <section>
         <img :src="`https://image.tmdb.org/t/p/original${movie.poster_path}`" :alt="movie.title" @click="goToDetails">
-    </section>
+    </section> 
 </template>
 
 <style scoped>

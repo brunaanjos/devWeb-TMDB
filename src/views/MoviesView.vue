@@ -16,7 +16,7 @@ async function getMoviesOfGenre(genreId) {
     moviesOfGenre.value = await movieStore.getMoviesOfGenre(genreId);
 }
 </script>
-
+ 
 <template>
     <main>
         <MoviesGenresSlide @getMoviesOfGenre="getMoviesOfGenre"/>

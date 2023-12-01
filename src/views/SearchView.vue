@@ -53,7 +53,7 @@
                 <img :src="`https://image.tmdb.org/t/p/original${movie.poster_path}`" :alt="movie.name">
             </div>
 
-            <div v-for="tv in tvs" class="tv" @click="goToDetails(tv.id, 'tv')" v-if="showTvs">
+            <div v-for="tv in tvs" class="tv" :key="tv.id" @click="goToDetails(tv.id, 'tv')" v-if="showTvs">
                 <img :src="`https://image.tmdb.org/t/p/original${tv.poster_path}`" :alt="tv.name">
             </div>
         </section>

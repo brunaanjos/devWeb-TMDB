@@ -16,7 +16,7 @@ const moviesPerPage = 8;
 
 const pageMovies = computed(()=> {
     return Math.ceil(topRatedMovies.value.length / moviesPerPage);
-})
+}) 
 
 function changePage(index) {
     pageActive.value = index;

@@ -17,7 +17,7 @@ import SlidesTvs from '../components/Home/SlidesTvs.vue';
 <style scoped>
     main {
         width: 100%;
-        height: 100%;
+        height: 100%; 
         display: flex;
         flex-direction: column;
         gap: 50px;

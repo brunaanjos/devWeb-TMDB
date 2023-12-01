@@ -18,7 +18,7 @@ const item = ref({
     overview: '',
     poster_path: '',
     release_date: '',
-    vote_average: '',
+    vote_average: '', 
     vote_count: '',
     genres: [],
     spoken_languages: [],

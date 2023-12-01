@@ -19,7 +19,7 @@ function changeGenreActive(index) {
         <div class="genres">
             <div class="genre" @click="changeGenreActive(-1), $emit('getMoviesOfGenre', -1)" :class="genreActive == -1 ? 'active' : ''">
                 <h2>Populares</h2>
-            </div>
+            </div> 
             <div class="genre" v-for="(genre, index) in genreTv" :key="index" :class="index == genreActive ? 'active' : ''" @click="changeGenreActive(index), $emit('getTvOfGenre', genre.id)">
                 <h2>{{genre.name}}</h2>
             </div>
