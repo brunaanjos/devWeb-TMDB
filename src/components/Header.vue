@@ -19,7 +19,7 @@ function goToSearch() {
 function changeLinksResize() {
     const width = document.documentElement.clientWidth;
     console.log(width)
-    if(width < 820 ) {
+    if(width < 820 ) {   
         links.value = [{name: 'Início', path: 'Home'} ,{name:'Filmes', path: 'Movies'}, {name:'Séries', path: 'Series'}]
     }
 
