@@ -18,7 +18,7 @@ onMounted(
     await movieStore.getTopRatedMovies();
     await movieStore.getPopularMovies();
     await tvStore.getGenreTv();
-    await tvStore.getTopRatedTv();
+    await tvStore.getTopRatedTv();  
     await tvStore.getPopularTv();
     othersStore.toggleLoader();
   }
