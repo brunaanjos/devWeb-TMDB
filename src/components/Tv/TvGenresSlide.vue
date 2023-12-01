@@ -12,7 +12,7 @@ function changeGenreActive(index) {
     genreActive.value = index;
     console.log(genreActive.value)
 }
-</script>
+</script> 
 
 <template>
     <section>

@@ -15,7 +15,7 @@ async function getTvOfGenre(genreId) {
         tvOfGenre.value = tvStore.popularTv;
         return;
     }
-    isLoading.value = true;
+    isLoading.value = true; 
     tvOfGenre.value = await tvStore.getTvOfGenre(genreId);
     isLoading.value = false; 
 }

@@ -11,8 +11,8 @@ const moviesOfGenre = ref(movieStore.popularMovies);
 async function getMoviesOfGenre(genreId) {
     if (genreId == -1) {
         moviesOfGenre.value = movieStore.popularMovies;
-        return;
-    }
+        return; 
+    } 
     moviesOfGenre.value = await movieStore.getMoviesOfGenre(genreId);
 }
 </script>

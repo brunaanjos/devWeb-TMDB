@@ -8,7 +8,7 @@ import SlidesTvs from '../components/Home/SlidesTvs.vue';
     <main>
         <BestMovies />
 
-        <SlidesMovies />
+        <SlidesMovies /> 
 
         <SlidesTvs />
     </main>

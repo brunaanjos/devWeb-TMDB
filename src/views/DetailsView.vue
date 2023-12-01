@@ -7,7 +7,7 @@ const detailsStore = useDetailsStore();
 const isLoading = ref(false);
 
 const props = defineProps({
-    id: Object,
+    id: Object, 
     type: String
 })
 

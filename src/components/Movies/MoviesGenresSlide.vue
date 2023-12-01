@@ -9,7 +9,7 @@ const tvStore = useTvStore();
 const genreMovies = computed(() => movieStore.genreMovies);
 
 const genreActive = ref(-1);
-
+ 
 function changeGenreActive(index) {
     genreActive.value = index;
     console.log(genreActive.value)

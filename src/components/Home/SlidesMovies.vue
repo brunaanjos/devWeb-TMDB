@@ -23,7 +23,7 @@ function changePage(index) {
     activeMovie.value = index * moviesPerPage;
     listMovies.value[activeMovie.value].scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });
 }
-
+ 
 function nextMovie() {
     if (activeMovie.value < topRatedMovies.value.length - moviesPerPage) {
         activeMovie.value++; 

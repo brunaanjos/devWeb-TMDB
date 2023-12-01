@@ -14,7 +14,7 @@ const tvPerPage = 8;
 
 const pageTv = computed(()=> {
     return Math.ceil(topRatedTv.value.length / tvPerPage);
-})
+}) 
   
 function changePage(index) {  
     pageActive.value = index;

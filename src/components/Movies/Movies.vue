@@ -10,7 +10,7 @@ const props = defineProps({
 function goToDetails() {
     console.log(props.movie.id)
     router.push({ name: 'Item',  params: { id: props.movie.id, type: 'movie' }})
-}
+} 
 </script>
 
 <template>

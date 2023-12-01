@@ -13,7 +13,7 @@ function goToDetails() {
 }
 </script>
 
-<template>
+<template> 
     <section @click="goToDetails">
         <img :src="`https://image.tmdb.org/t/p/original${tv.poster_path}`" :alt="tv.name">
     </section>

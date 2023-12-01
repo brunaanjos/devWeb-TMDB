@@ -7,7 +7,7 @@ const movieStore = useMoviesStore();
 const router = useRouter();
 const bestMovies = computed(() => movieStore.popularMovies);
 const activeMovie = ref(0);
-const listMovies = ref(null);
+const listMovies = ref(null); 
 
 function nextMovie() {
     if (activeMovie.value < bestMovies.value.length - 1) {
