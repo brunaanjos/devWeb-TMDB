@@ -13,7 +13,7 @@ class DetailsService {
             if(age.iso_3166_1 == "BR") {
                 console.log(age.release_dates[0].certification )
                 return age.release_dates[0].certification  ;
-            }
+            } 
             else {
                 return '?';
             }

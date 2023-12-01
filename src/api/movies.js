@@ -12,7 +12,7 @@ class MoviesService {
         const { data } = await axios.get(`/movie/${id}/videos?language=pt-br`, )
         if (data.results.lenght == 0) return null;
         for (let movie of data.results) {
-            if (movie.type == 'Trailer') {
+            if (movie.type == 'Trailer') { 
                 return movie.key;
             }
         }

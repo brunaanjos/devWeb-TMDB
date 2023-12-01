@@ -14,7 +14,7 @@ class TvService {
         if(data.results.lenght == 0) return null;
         for (let movie of data.results) {
             if (movie.type == 'Trailer') {
-                return movie.key;
+                return movie.key; 
             }
         }
     }

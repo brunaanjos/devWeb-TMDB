@@ -7,4 +7,4 @@ class OthersService {
     }
 }
 
-export default new OthersService();
+export default new OthersService(); 

@@ -13,7 +13,7 @@ class SearchService {
         try {
         const { data } = await axios.get(`https://api.themoviedb.org/3/search/tv?query=${query}&language=pt-br&page=1`)
         return data.results;
-        } catch(err) {
+        } catch(err) { 
             console.log(err)
         }
     }
