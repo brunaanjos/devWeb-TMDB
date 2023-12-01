@@ -15,8 +15,8 @@ const tvPerPage = 8;
 const pageTv = computed(()=> {
     return Math.ceil(topRatedTv.value.length / tvPerPage);
 })
-
-function changePage(index) {
+  
+function changePage(index) {  
     pageActive.value = index;
     activeMovie.value = index * tvPerPage;
     listTv.value[activeMovie.value].scrollIntoView({ behavior: 'smooth', inline: 'start', block: 'nearest' });

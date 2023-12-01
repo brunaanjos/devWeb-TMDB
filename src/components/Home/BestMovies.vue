@@ -17,7 +17,7 @@ function nextMovie() {
     listMovies.value[activeMovie.value].scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest'  });
 
 }
-
+  
 function backMovie() {
     if (activeMovie.value > 0) {
         activeMovie.value--;

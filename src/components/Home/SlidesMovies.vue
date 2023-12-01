@@ -17,7 +17,7 @@ const moviesPerPage = 8;
 const pageMovies = computed(()=> {
     return Math.ceil(topRatedMovies.value.length / moviesPerPage);
 }) 
-
+  
 function changePage(index) {
     pageActive.value = index;
     activeMovie.value = index * moviesPerPage;
@@ -26,7 +26,7 @@ function changePage(index) {
 
 function nextMovie() {
     if (activeMovie.value < topRatedMovies.value.length - moviesPerPage) {
-        activeMovie.value++;
+        activeMovie.value++; 
     }
     if(activeMovie.value % moviesPerPage == 0) {
         pageActive.value++;
@@ -35,7 +35,7 @@ function nextMovie() {
 }
 
 function backMovie() {
-    if (activeMovie.value > 0) {
+    if (activeMovie.value > 0) { 
         activeMovie.value--;
     }
     if(activeMovie.value % moviesPerPage == 0) {
