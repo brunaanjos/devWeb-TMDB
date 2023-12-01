@@ -13,7 +13,7 @@ function goToSearch() {
     console.log(inputSearch.value);
     router.push({ name: 'Search', params: { query: inputSearch.value } });
     inputSearch.value = '';
-    // window.location.reload();
+    // window.location.reload();   
 }
  
 function changeLinksResize() {
@@ -28,7 +28,7 @@ function changeLinksResize() {
     }
 }
 
-onMounted(()=> {
+onMounted(()=> {   
     console.log(route)
     changeLinksResize()
 })
